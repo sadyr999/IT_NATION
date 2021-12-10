@@ -1,0 +1,113 @@
+LESSON 1
+print()
+type()
+float()
+int()
+str()
+
+LESSON 2
+mutable / immutable
+---
+spisok (mutable)
+a = [2, 22, 22, 32]
+print(a)
+print("a[0:2] =", a[0:2])
+a[:5]
+a[5:]
+a.append(35)
+a.insert(2, 100) - vstavit vo 2i 100
+---
+kortej (immutable)
+w = ('a', 'b', 'c')
+w[-1] - posledni element
+---
+stroka
+s = "abc"
+s = '''line1
+line2'''
+s[-1]
+---
+'''
+comment
+'''
+---
+mnojestvo unikalnyh znacheni, dubliruyushie isklychaytsa
+nelzya obrashatsa po indexu
+a = {1, 2, 3}
+a.intersection(b) - join
+a.difference(b)
+---
+slovar
+d = {'ss': 'aa', 'dd': 'ww'}
+d['ss']
+s = 'ss'
+d[s]
+---
+
+LESSON 3
+if 3 <= old < 6:
+while i < 15:
+---
+spisok = [10, 20, 30]
+for element in spisok
+
+LESSON 7
+cd Desktop
+ls - list of files
+pwd - current directory
+touch hello.txt
+echo hello, world! > hello.txt
+xxd -c 1 hello.txt
+xxd -c 1 -b hello.txt
+clear
+exit
+---
+file = open('example.txt', 'r')
+contents = file.read()
+print(contents)
+file.close()
+---
+with open('/home/sadyr/Deskt
+    contents = file.read()
+    print(contents)
+    print(type(contents))
+---
+begimai 
+i += 1
+---
+ctrl alt l
+---
+site parsing
+lib beautiful soap
+lib requests
+---
+pip3 -m venv venv_parse
+source venv_parse/bin/activate
+pip install --upgrade pip
+pip3 install lxml
+pip list
+pip3 install requests
+pip3 install beautifulsoup4
+ищем в коде - просмотр кода страницы - див блоки
+https://pythonru.com/biblioteki/parsing-na-python-s-beautiful-soup
+for i, val in enumerate(table):
+	tr_list = val.find_all
+---
+telegram bot
+pip3 install pytelegrambotapi
+---
+python3 -m venv venv
+. venv/bin/activate
+pip install pyTelegramBotAPI
+TOKEN = '2132519709:AAECAFbn_KE7L9v3ETmeAC31d56CPaEuCRA'
+python3 bot.py
+---
+git add .
+git commit -m "Created 4 files"
+git push -u origin main
+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
+
+
+python3 -m unittest -v rectangles_test.py
+git clone https
+
