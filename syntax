@@ -4,7 +4,7 @@ type()
 float()
 int()
 str()
-
+---
 LESSON 2
 mutable / immutable
 ---
@@ -43,14 +43,13 @@ d['ss']
 s = 'ss'
 d[s]
 ---
-
 LESSON 3
 if 3 <= old < 6:
 while i < 15:
 ---
 spisok = [10, 20, 30]
 for element in spisok
-
+---
 LESSON 7
 cd Desktop
 ls - list of files
@@ -106,8 +105,7 @@ git add .
 git commit -m "Created 4 files"
 git push -u origin main
 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
-
-
+---
 python3 -m unittest -v rectangles_test.py
 git clone https
-
+---
