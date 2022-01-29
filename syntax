@@ -109,3 +109,9 @@ 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
 python3 -m unittest -v rectangles_test.py
 git clone https
 ---
+SELECT * FROM Countries JOIN Cities ON Cities.country_id = Countries.id
+inner только общее
+left родительский запрос вся таблица
+right дочерний запапрос вся таблица
+full outer из обеих таблиц
+CREATE 
