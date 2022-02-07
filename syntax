@@ -115,3 +115,33 @@ left родительский запрос вся таблица
 right дочерний запапрос вся таблица
 full outer из обеих таблиц
 CREATE 
+---
+from app.articles.models
+
+class Person:
+    db = [] # datebase
+    def __init__(self, name : str, age:int):
+        self.name = name
+        self.age = age
+    @classmethod
+    def get_all(cls)->list:
+        return cls.db
+    @classmethod
+    def create(cls, name: str, age: int):
+        new_person = cls(name=name, age=age)
+        cls.db.append(new_person)
+        return new_person
+    @classmethod
+    def get_by_name(self,name: str):
+        for person in cls.db:
+            if person.name == name:
+                cls.db.remove(person)
+print(Person.get_all())
+Person.create(name='Tony', age=11)
+print()
+
+19.31.07.02.2022
+class method static method instance method
+
+procedura i funkciya - procedura nichego ne vozvrawaet
+
